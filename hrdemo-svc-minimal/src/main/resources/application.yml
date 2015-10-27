@@ -1,0 +1,8 @@
+
+server:
+  contextPath: /hrdemo
+  port: 8091
+
+spring:
+# to avoid initialization done by hibernate
+  jpa.hibernate.ddl-auto: none
