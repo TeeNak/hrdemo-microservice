@@ -1,0 +1,204 @@
+{
+  "_links" : {
+    "self" : {
+      "href" : "http://192.168.56.101:8091/hrdemo/jobs{?page,size,sort}",
+      "templated" : true
+    },
+    "next" : {
+      "href" : "http://192.168.56.101:8091/hrdemo/jobs?page=1&size=20{&sort}",
+      "templated" : true
+    },
+    "search" : {
+      "href" : "http://192.168.56.101:8091/hrdemo/jobs/search"
+    }
+  },
+  "_embedded" : {
+    "jobs" : [ {
+      "code" : "JOB0001",
+      "name" : "Able Seamen",
+      "version" : 1,
+      "_links" : {
+        "self" : {
+          "href" : "http://192.168.56.101:8091/hrdemo/jobs/1"
+        }
+      }
+    }, {
+      "code" : "JOB0002",
+      "name" : "Account Manager",
+      "version" : 1,
+      "_links" : {
+        "self" : {
+          "href" : "http://192.168.56.101:8091/hrdemo/jobs/2"
+        }
+      }
+    }, {
+      "code" : "JOB0003",
+      "name" : "Accountant",
+      "version" : 1,
+      "_links" : {
+        "self" : {
+          "href" : "http://192.168.56.101:8091/hrdemo/jobs/3"
+        }
+      }
+    }, {
+      "code" : "JOB0004",
+      "name" : "Actor",
+      "version" : 1,
+      "_links" : {
+        "self" : {
+          "href" : "http://192.168.56.101:8091/hrdemo/jobs/4"
+        }
+      }
+    }, {
+      "code" : "JOB0005",
+      "name" : "Actuary",
+      "version" : 1,
+      "_links" : {
+        "self" : {
+          "href" : "http://192.168.56.101:8091/hrdemo/jobs/5"
+        }
+      }
+    }, {
+      "code" : "JOB0006",
+      "name" : "Adjustment Clerk",
+      "version" : 1,
+      "_links" : {
+        "self" : {
+          "href" : "http://192.168.56.101:8091/hrdemo/jobs/6"
+        }
+      }
+    }, {
+      "code" : "JOB0007",
+      "name" : "Admin",
+      "version" : 1,
+      "_links" : {
+        "self" : {
+          "href" : "http://192.168.56.101:8091/hrdemo/jobs/7"
+        }
+      }
+    }, {
+      "code" : "JOB0008",
+      "name" : "Administrative Law Judge",
+      "version" : 1,
+      "_links" : {
+        "self" : {
+          "href" : "http://192.168.56.101:8091/hrdemo/jobs/8"
+        }
+      }
+    }, {
+      "code" : "JOB0009",
+      "name" : "Administrative Services Manager",
+      "version" : 1,
+      "_links" : {
+        "self" : {
+          "href" : "http://192.168.56.101:8091/hrdemo/jobs/9"
+        }
+      }
+    }, {
+      "code" : "JOB0010",
+      "name" : "Administrative Support Supervisors",
+      "version" : 1,
+      "_links" : {
+        "self" : {
+          "href" : "http://192.168.56.101:8091/hrdemo/jobs/10"
+        }
+      }
+    }, {
+      "code" : "JOB0011",
+      "name" : "Advertising Manager OR Promotions Manager",
+      "version" : 1,
+      "_links" : {
+        "self" : {
+          "href" : "http://192.168.56.101:8091/hrdemo/jobs/11"
+        }
+      }
+    }, {
+      "code" : "JOB0012",
+      "name" : "Advertising Sales Agent",
+      "version" : 1,
+      "_links" : {
+        "self" : {
+          "href" : "http://192.168.56.101:8091/hrdemo/jobs/12"
+        }
+      }
+    }, {
+      "code" : "JOB0013",
+      "name" : "Aerospace Engineer",
+      "version" : 1,
+      "_links" : {
+        "self" : {
+          "href" : "http://192.168.56.101:8091/hrdemo/jobs/13"
+        }
+      }
+    }, {
+      "code" : "JOB0014",
+      "name" : "Agricultural Crop Farm Manager",
+      "version" : 1,
+      "_links" : {
+        "self" : {
+          "href" : "http://192.168.56.101:8091/hrdemo/jobs/14"
+        }
+      }
+    }, {
+      "code" : "JOB0015",
+      "name" : "Agricultural Crop Worker",
+      "version" : 1,
+      "_links" : {
+        "self" : {
+          "href" : "http://192.168.56.101:8091/hrdemo/jobs/15"
+        }
+      }
+    }, {
+      "code" : "JOB0016",
+      "name" : "Agricultural Engineer",
+      "version" : 1,
+      "_links" : {
+        "self" : {
+          "href" : "http://192.168.56.101:8091/hrdemo/jobs/16"
+        }
+      }
+    }, {
+      "code" : "JOB0017",
+      "name" : "Agricultural Equipment Operator",
+      "version" : 1,
+      "_links" : {
+        "self" : {
+          "href" : "http://192.168.56.101:8091/hrdemo/jobs/17"
+        }
+      }
+    }, {
+      "code" : "JOB0018",
+      "name" : "Agricultural Inspector",
+      "version" : 1,
+      "_links" : {
+        "self" : {
+          "href" : "http://192.168.56.101:8091/hrdemo/jobs/18"
+        }
+      }
+    }, {
+      "code" : "JOB0019",
+      "name" : "Agricultural Manager",
+      "version" : 1,
+      "_links" : {
+        "self" : {
+          "href" : "http://192.168.56.101:8091/hrdemo/jobs/19"
+        }
+      }
+    }, {
+      "code" : "JOB0020",
+      "name" : "Agricultural Product Grader Sorter",
+      "version" : 1,
+      "_links" : {
+        "self" : {
+          "href" : "http://192.168.56.101:8091/hrdemo/jobs/20"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 1186,
+    "totalPages" : 60,
+    "number" : 0
+  }
+}
