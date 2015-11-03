@@ -18,6 +18,7 @@ angular
     'ngTouch',
     'ui.grid',
     'ui.grid.edit',
+    'ui.grid.resizeColumns',
     'pascalprecht.translate'
   ])
   .config(function ($routeProvider) {

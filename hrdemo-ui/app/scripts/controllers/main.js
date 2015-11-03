@@ -38,7 +38,7 @@ angular.module('hrdemoUiApp')
         NAME: '名前',
         VERSION: 'バージョン'
     });
-    $translateProvider.preferredLanguage('ja'); 
+    $translateProvider.preferredLanguage('en'); 
     $translateProvider.useSanitizeValueStrategy('escape');
 });
 
