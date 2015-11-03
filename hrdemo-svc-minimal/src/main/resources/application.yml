@@ -6,3 +6,5 @@ server:
 spring:
 # to avoid initialization done by hibernate
   jpa.hibernate.ddl-auto: none
+  data.rest.max-page-size: 10000
+
