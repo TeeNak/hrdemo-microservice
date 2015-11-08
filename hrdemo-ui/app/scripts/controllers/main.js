@@ -21,7 +21,7 @@ angular.module('hrdemoUiApp')
         ] 
     };
 
-    $http.get('/hrdemo/jobs')
+    $http.get('/hrdemo/jobs?size=100000')
     .success(function(jsonData){
         $scope.gridOptions.data = jsonData._embedded.jobs;    
     });
