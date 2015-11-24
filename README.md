@@ -8,5 +8,6 @@ mvn spring-boot:run
 * Then start ui application
 ```
 cd hrdemo-ui
+npm install
 grunt serve
 ```
