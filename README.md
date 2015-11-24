@@ -9,5 +9,6 @@ mvn spring-boot:run
 ```
 cd hrdemo-ui
 npm install
+bower install
 grunt serve
 ```
