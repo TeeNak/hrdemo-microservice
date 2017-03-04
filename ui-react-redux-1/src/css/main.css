@@ -1,0 +1,16 @@
+@keyframes pulse {
+ from {
+   box-shadow: 0 0 5px 5px rgba(255,51,255,0.3);
+ }
+ to {
+ }
+}
+
+.blinking{
+animation-name: pulse;
+animation-duration: 0.3s;
+animation-iteration-count:5;
+animation-timing-function:ease-in;
+animation-direction: alternate;
+animation-delay: 0s; 
+}

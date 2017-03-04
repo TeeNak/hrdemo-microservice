@@ -1,0 +1,13 @@
+<div ng-controller="MainCtrl">
+
+    <div class="return-message alert alert-info">{{message}}</div>
+
+    <button type="button" id="loadData" class="btn btn-success" ng-click="loadData()">Load Data</button>
+
+    <button type="button" id="saveData" class="btn btn-success" ng-click="saveData()">Save Data</button>
+
+    <div ui-grid="gridOptions" class="grid" ui-grid-edit ui-grid-resize-columns></div>
+
+</div>
+
+

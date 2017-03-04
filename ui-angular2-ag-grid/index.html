@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Angular 2 QuickStart</title>
+
+    <!-- 1. Load libraries -->
+    <script src="/node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="/node_modules/systemjs/dist/system.js"></script>
+    <script src="/node_modules/typescript/lib/typescript.js"></script>
+    <script src="/node_modules/rxjs/bundles/Rx.js"></script>
+    <script src="/node_modules/angular2/bundles/angular2.dev.js"></script>
+    <script src="/node_modules/angular2/bundles/http.dev.js"></script>
+    <script src="/app/lib/ag-grid/ag-grid.js"></script>
+    <script>
+        if (window.System && window.System.import) {
+            window.System.import('angular2/core').then( function(ngCoreFromSystemX) {
+                var ng = {};
+                ng.core = ngCoreFromSystemX;
+                ag.grid.initialiseAgGridWithAngular2(ng);
+            });
+        }
+
+    </script>
+    <link rel="stylesheet" type="text/css" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/node_modules/bootstrap/dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="/app/lib/ag-grid/ag-grid.css">
+    <link rel="stylesheet" type="text/css" href="/app/lib/ag-grid/theme-fresh.css">
+    <link rel="stylesheet" type="text/css" href="/app/assets/main.css">
+
+    <!-- 2. Configure SystemJS -->
+    <script>
+      System.config({
+        transpiler: 'typescript',
+        typescriptOptions: { emitDecoratorMetadata: true },
+        map: {
+          rxjs: 'node_modules/rxjs',
+          tsd: 'node_modules/typescript-deferred'
+        },
+        packages: {
+            app : { defaultExtension: 'ts'},
+            rxjs : { defaultExtension: 'js'},
+            tsd : { defaultExtension: 'js'}
+        }
+
+      });
+      System.import('app/scripts/boot')
+            .then(null, console.error.bind(console));
+    </script>
+
+  </head>
+
+  <!-- 3. Display the application -->
+  <body>
+    <my-app>Loading...</my-app>
+  </body>
+
+</html>

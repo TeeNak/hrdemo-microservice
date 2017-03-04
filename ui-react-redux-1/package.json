@@ -1,0 +1,61 @@
+{
+  "name": "tutorial-reddit-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "copy": "copyfiles -f ./src/index.html ./dist",
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js 'test/**/*.@(js|jsx)'",
+    "test:watch": "npm run test -- --watch",
+    "start": "npm run copy & webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.4.0",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "chai": "^3.4.1",
+    "chai-immutable": "^1.5.3",
+    "copyfiles": "^0.2.1",
+    "css-loader": "^0.23.1",
+    "expose-loader": "^0.7.1",
+    "file-loader": "^0.8.5",
+    "jsdom": "^7.2.2",
+    "mocha": "^2.3.4",
+    "react-hot-loader": "^1.3.0",
+    "redux-devtools": "^3.1.1",
+    "redux-devtools-dock-monitor": "^1.0.1",
+    "redux-devtools-log-monitor": "^1.0.4",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "dependencies": {
+    "babel-core": "^6.4.5",
+    "bootstrap": "^3.3.6",
+    "history": "^1.17.0",
+    "immutable": "^3.7.6",
+    "isomorphic-fetch": "^2.2.1",
+    "jquery": "^2.2.0",
+    "react": "^0.14.6",
+    "react-addons-pure-render-mixin": "^0.14.6",
+    "react-bootstrap-table": "^1.4.5",
+    "react-dom": "^0.14.6",
+    "react-redux": "^4.4.0",
+    "react-router": "^1.0.3",
+    "redux": "^3.3.1",
+    "redux-logger": "^2.5.0",
+    "redux-thunk": "^1.0.3",
+    "socket.io-client": "^1.4.4"
+  }
+}
