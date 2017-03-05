@@ -38,7 +38,7 @@ module.exports = {
     host: '0.0.0.0',
     contentBase: './dist',
     proxy: {
-      '/hrdemo*': {
+      '/hrdemo': {
         target: 'http://localhost:8091',
         secure: false,
       },
